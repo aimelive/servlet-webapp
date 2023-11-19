@@ -7,4 +7,9 @@ A simple web page to list wall of famous. Built with Java, Servlet, Tomcat Web S
 ```bash
 mvn tomcat7:run
 ```
-# servlet-webapp
+
+### Maven Archetype
+
+```bash
+mvn archetype:generate -DgroupId=com.example -DartifactId=my-webapp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+```

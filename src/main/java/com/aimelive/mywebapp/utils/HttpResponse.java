@@ -31,6 +31,7 @@ public class HttpResponse {
 
     public void send(String message, Object... data) throws IOException {
         response.setContentType("application/json");
+        response.addHeader("Access-Control-Allow-Origin", "*");
 
         response.setStatus(statusCode);
 
